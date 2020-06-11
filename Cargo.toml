@@ -1,10 +1,4 @@
-[package]
-name = "fluent-templates-test"
-version = "0.1.0"
-authors = ["Jonathan Johnson <jon@khonsulabs.com>"]
-edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-fluent-templates = "0.5"
+[workspace]
+members = [
+    "fluent-templates-test"
+]
